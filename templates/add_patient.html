@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Add Patient</title>
+
+```
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+```
+<h2>Add Patient</h2>
+
+<form method="POST">
+
+    <input
+        type="text"
+        name="full_name"
+        placeholder="Full Name"
+        class="form-control mb-2"
+        required>
+
+    <input
+        type="date"
+        name="dob"
+        class="form-control mb-2"
+        required>
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        class="form-control mb-2"
+        required>
+
+    <input
+        type="number"
+        step="0.01"
+        name="glucose"
+        placeholder="Glucose"
+        class="form-control mb-2"
+        required>
+
+    <input
+        type="number"
+        step="0.01"
+        name="haemoglobin"
+        placeholder="Haemoglobin"
+        class="form-control mb-2"
+        required>
+
+    <input
+        type="number"
+        step="0.01"
+        name="cholesterol"
+        placeholder="Cholesterol"
+        class="form-control mb-2"
+        required>
+
+    <button type="submit" class="btn btn-success">
+        Save Patient
+    </button>
+
+    <a href="/" class="btn btn-secondary">
+        Back
+    </a>
+
+</form>
+```
+
+</div>
+
+</body>
+</html>
